@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -294,6 +294,32 @@
 <wire x1="1.3" y1="5.1" x2="-1.3" y2="5.1" width="0.127" layer="21"/>
 <text x="-1.3" y="5.3" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="20X1_HEADER_1MM27">
+<pad name="P$1" x="-12.065" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$2" x="-10.795" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$3" x="-9.525" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$4" x="-8.255" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$5" x="-6.985" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$6" x="-5.715" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$7" x="-4.445" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$8" x="-3.175" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$9" x="-1.905" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$10" x="-0.635" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$11" x="0.635" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$12" x="1.905" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$13" x="3.175" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$14" x="4.445" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$15" x="5.715" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$16" x="6.985" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$17" x="8.255" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$18" x="9.525" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$19" x="10.795" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<pad name="P$20" x="12.065" y="0" drill="0.6" diameter="1.016" rot="R270"/>
+<wire x1="-13.2" y1="1.1" x2="-13.2" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-13.2" y1="-1.1" x2="13.2" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="13.2" y1="-1.1" x2="13.2" y2="1.1" width="0.127" layer="21"/>
+<wire x1="13.2" y1="1.1" x2="-13.2" y2="1.1" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="M503142045" urn="urn:adsk.eagle:package:27583952/2" type="model">
@@ -497,6 +523,33 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/M50-3142045.p
 <attribute name="MOUSER_PART_NUMBER" value="855-M50-3142045" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/M50-3142045/?qs=%252BdQmOuGyFcFpETieNSWjAg%3D%3D" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="THT" package="20X1_HEADER_1MM27">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="10" pad="P$10"/>
+<connect gate="G$1" pin="11" pad="P$11"/>
+<connect gate="G$1" pin="12" pad="P$12"/>
+<connect gate="G$1" pin="13" pad="P$13"/>
+<connect gate="G$1" pin="14" pad="P$14"/>
+<connect gate="G$1" pin="15" pad="P$15"/>
+<connect gate="G$1" pin="16" pad="P$16"/>
+<connect gate="G$1" pin="17" pad="P$17"/>
+<connect gate="G$1" pin="18" pad="P$18"/>
+<connect gate="G$1" pin="19" pad="P$19"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="20" pad="P$20"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+<connect gate="G$1" pin="9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
