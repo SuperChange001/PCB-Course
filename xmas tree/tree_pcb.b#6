@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -349,7 +349,7 @@
 <element name="J1" library="xmas_tree" package="8X1_HEADER_THT" value="FEMALE_HEADER_8X1" x="50" y="6" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.64" y="7.3" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="D1" library="xmas_tree" package="SIDE_MOUNT" value="red" x="76" y="8" smashed="yes">
+<element name="D1" library="xmas_tree" package="SIDE_MOUNT" value="" x="76" y="8" smashed="yes">
 <attribute name="NAME" x="76" y="6" size="1.27" layer="25" align="top-center"/>
 </element>
 <element name="D2" library="xmas_tree" package="SIDE_MOUNT" value="" x="67" y="15" smashed="yes">
@@ -399,7 +399,7 @@
 </element>
 </elements>
 <signals>
-<signal name="NET_A">
+<signal name="A">
 <contactref element="J1" pad="1"/>
 <contactref element="D1" pad="2"/>
 <contactref element="D2" pad="2"/>
@@ -421,7 +421,7 @@
 <wire x1="78" y1="7" x2="78" y2="7.75" width="0.2" layer="1"/>
 <wire x1="78" y1="7.75" x2="77.75" y2="8" width="0.2" layer="1"/>
 </signal>
-<signal name="NET_3">
+<signal name="3">
 <contactref element="J1" pad="7"/>
 <contactref element="D3" pad="1"/>
 <contactref element="D7" pad="1"/>
@@ -452,7 +452,7 @@
 <wire x1="68.25" y1="28.75" x2="68.25" y2="28" width="0.2" layer="1"/>
 <wire x1="48" y1="35" x2="62" y2="35" width="0.2" layer="16"/>
 </signal>
-<signal name="NET_2">
+<signal name="2">
 <contactref element="J1" pad="6"/>
 <contactref element="D2" pad="1"/>
 <contactref element="D14" pad="1"/>
@@ -488,7 +488,7 @@
 <wire x1="54" y1="22" x2="54" y2="13.81" width="0.2" layer="16"/>
 <wire x1="54" y1="13.81" x2="51.19" y2="11" width="0.2" layer="16"/>
 </signal>
-<signal name="NET_1">
+<signal name="1">
 <contactref element="J1" pad="5"/>
 <contactref element="D1" pad="1"/>
 <contactref element="D5" pad="1"/>
@@ -517,7 +517,7 @@
 <wire x1="57" y1="48" x2="57.25" y2="48" width="0.2" layer="1"/>
 <wire x1="48" y1="46" x2="55" y2="46" width="0.2" layer="16"/>
 </signal>
-<signal name="NET_D">
+<signal name="D">
 <contactref element="J1" pad="4"/>
 <contactref element="D13" pad="2"/>
 <contactref element="D14" pad="2"/>
@@ -533,7 +533,7 @@
 <wire x1="51.27" y1="6" x2="49.875" y2="7.395" width="0.2" layer="1"/>
 <wire x1="49.875" y1="7.395" x2="49.875" y2="14.125" width="0.2" layer="1"/>
 </signal>
-<signal name="NET_C">
+<signal name="C">
 <contactref element="J1" pad="3"/>
 <contactref element="D12" pad="2"/>
 <contactref element="D11" pad="2"/>
@@ -553,7 +553,7 @@
 <wire x1="26.75" y1="5.25" x2="26.75" y2="8" width="0.2" layer="1"/>
 <wire x1="28.8078" y1="3.1922" x2="26.75" y2="5.25" width="0.2" layer="1"/>
 </signal>
-<signal name="NET_B">
+<signal name="B">
 <contactref element="J1" pad="2"/>
 <contactref element="D5" pad="2"/>
 <contactref element="D6" pad="2"/>
@@ -575,13 +575,14 @@
 <wire x1="74" y1="20" x2="74" y2="34" width="0.2" layer="1"/>
 <wire x1="74" y1="34" x2="60.75" y2="47.25" width="0.2" layer="1"/>
 </signal>
-<signal name="NET_4">
+<signal name="4">
 <contactref element="J1" pad="8"/>
 <contactref element="D4" pad="1"/>
 <contactref element="D16" pad="1"/>
 <contactref element="D12" pad="1"/>
 <contactref element="D8" pad="1"/>
-<wire x1="23" y1="4" x2="39.11" y2="4" width="0.2" layer="16"/>
+<wire x1="41.11" y1="6" x2="39.11" y2="4" width="0.2" layer="16"/>
+<wire x1="39.11" y1="4" x2="23" y2="4" width="0.2" layer="16"/>
 <via x="23" y="4" extent="1-16" drill="0.35"/>
 <wire x1="23" y1="4" x2="23" y2="7.75" width="0.2" layer="1"/>
 <wire x1="23" y1="7.75" x2="23.25" y2="8" width="0.2" layer="1"/>
@@ -595,7 +596,7 @@
 <wire x1="47.1922" y1="79.50616875" x2="47.1922" y2="81.9422" width="0.2" layer="1"/>
 <wire x1="31.1922" y1="44.1922" x2="36" y2="49" width="0.2" layer="1"/>
 <wire x1="36" y1="56.31396875" x2="36" y2="53" width="0.2" layer="1"/>
-<wire x1="36" y1="53" x2="36" y2="49" width="0.2" layer="1"/>
+<wire x1="36" y1="52" x2="36" y2="49" width="0.2" layer="1"/>
 <wire x1="39.1922" y1="64.1922" x2="44" y2="69" width="0.2" layer="1"/>
 <wire x1="44" y1="69" x2="44" y2="76.31396875" width="0.2" layer="1"/>
 <wire x1="60.25" y1="36" x2="53" y2="43.25" width="0.2" layer="1"/>
@@ -607,7 +608,7 @@
 <wire x1="41.25" y1="56" x2="39.25" y2="54" width="0.2" layer="1"/>
 <wire x1="39.25" y1="54" x2="37" y2="54" width="0.2" layer="1"/>
 <wire x1="37" y1="54" x2="36" y2="53" width="0.2" layer="1"/>
-<wire x1="39.11" y1="4" x2="41.11" y2="6" width="0.1524" layer="16"/>
+<wire x1="36" y1="53" x2="36" y2="52" width="0.2" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

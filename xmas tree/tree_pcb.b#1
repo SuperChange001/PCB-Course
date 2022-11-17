@@ -581,7 +581,7 @@
 <contactref element="D16" pad="1"/>
 <contactref element="D12" pad="1"/>
 <contactref element="D8" pad="1"/>
-<wire x1="23" y1="4" x2="39.11" y2="4" width="0.2" layer="16"/>
+<wire x1="39.11" y1="4" x2="23" y2="4" width="0.2" layer="16"/>
 <via x="23" y="4" extent="1-16" drill="0.35"/>
 <wire x1="23" y1="4" x2="23" y2="7.75" width="0.2" layer="1"/>
 <wire x1="23" y1="7.75" x2="23.25" y2="8" width="0.2" layer="1"/>
@@ -595,7 +595,7 @@
 <wire x1="47.1922" y1="79.50616875" x2="47.1922" y2="81.9422" width="0.2" layer="1"/>
 <wire x1="31.1922" y1="44.1922" x2="36" y2="49" width="0.2" layer="1"/>
 <wire x1="36" y1="56.31396875" x2="36" y2="53" width="0.2" layer="1"/>
-<wire x1="36" y1="53" x2="36" y2="49" width="0.2" layer="1"/>
+<wire x1="36" y1="52" x2="36" y2="49" width="0.2" layer="1"/>
 <wire x1="39.1922" y1="64.1922" x2="44" y2="69" width="0.2" layer="1"/>
 <wire x1="44" y1="69" x2="44" y2="76.31396875" width="0.2" layer="1"/>
 <wire x1="60.25" y1="36" x2="53" y2="43.25" width="0.2" layer="1"/>
@@ -607,7 +607,8 @@
 <wire x1="41.25" y1="56" x2="39.25" y2="54" width="0.2" layer="1"/>
 <wire x1="39.25" y1="54" x2="37" y2="54" width="0.2" layer="1"/>
 <wire x1="37" y1="54" x2="36" y2="53" width="0.2" layer="1"/>
-<wire x1="39.11" y1="4" x2="41.11" y2="6" width="0.1524" layer="16"/>
+<wire x1="36" y1="53" x2="36" y2="52" width="0.2" layer="1"/>
+<wire x1="39.11" y1="4" x2="41.11" y2="6" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
